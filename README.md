@@ -9,7 +9,7 @@ Install `Chocolatey` as the main software package manager.
    ```shell
    Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
    ```
-If you don't see any errors, you are ready to use Chocolatey! Type `choco` or `choco -?`
+   If you don't see any errors, you are ready to use Chocolatey! Type `choco` or `choco -?`
 
 2. #### ⬆️ Install Chocolatey GUI (for Software Updates)
    Paste the copied text into your shell and press Enter
